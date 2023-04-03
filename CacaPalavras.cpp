@@ -133,7 +133,7 @@ void insere(){
 	}
 	
 		
-	printf("%s \n",palavraSort);
+	//printf("%s \n",palavraSort);
 		
 }
 //---------------------------------------------
@@ -143,7 +143,7 @@ bool abreArq(){
   {  // Se houve erro na leitura do arquivo
      printf("Problemas na leitura do arquivo\n");
      system("pause");
-     return 0; //n„o conseguiu abrir o arquivo
+     return 0; //n√£o conseguiu abrir o arquivo
   }   
   else
   {
